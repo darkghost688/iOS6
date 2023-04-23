@@ -1,0 +1,87 @@
+.iPhone-container {
+    width: 375px;
+    height: 667px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: visible;
+    border: 10px solid #000;
+    border-radius: 40px;
+    background: #fff;
+
+}
+
+.iPhone-screen {
+    width: 320px;
+    height: 568px;
+    position: absolute;
+    top: 49px;
+    left: 27px;
+    border: 1px solid #000;
+    /* background: #000; */
+    overflow: hidden;
+}
+
+.lock-screen {
+    width: 320px;
+    height: 568px;
+    position: absolute;
+    top: 49px;
+    left: 27px;
+    border: 1px solid #000;
+    background: #000;
+    overflow: hidden;
+}
+
+.iPhone-power-button {
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    left: 70%;
+    top: -15px;
+    background: #000;
+}
+
+.iPhone-home-button {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #000;
+    box-shadow: 0px 3px 0px #000;
+}
+
+.iPhone-speaker {
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000;
+    border-radius: 10px;
+}
+
+.iPhone-camera {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000;
+    border-radius: 50%;
+}
+
+.iPhone-sensor {
+    width: 3px;
+    height: 3px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    background: #000;
+    border-radius: 50%;
+}

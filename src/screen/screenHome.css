@@ -1,0 +1,44 @@
+.ios6-screen {
+    width: 320px;
+    height: 568px;
+    background-image: url(../../public/ios6Screenshot.jpeg);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.statusbar {
+    width: 320px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signal {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 20px;
+    flex-basis: 10%;
+}
+
+.company {
+    height: 20px;
+    font-style: #fff;
+    margin-right: 5px;
+}
+
+#clock {
+    /* font-family: monospace; */
+    height: 20px;
+    color: #fff#fff;
+    margin-right: 5px;
+    flex-basis: 30%;
+}
+
+.battery {
+    height: 20px;
+    margin-right: 5px;
+}
